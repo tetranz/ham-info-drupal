@@ -5,3 +5,4 @@
 settings.local.php
 /web/sites/default/files/
 .idea
+/config/sync/ham_station.settings.yml
