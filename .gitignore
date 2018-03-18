@@ -1,0 +1,7 @@
+/nogit
+/vendor
+/web/core
+/web/modules
+settings.local.php
+/web/sites/default/files/
+.idea
