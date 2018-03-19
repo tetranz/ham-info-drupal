@@ -11,7 +11,9 @@
         "drupal/features": "^3.7",
         "drupal/geolocation": "^1.11",
         "drush/drush": "^9.2",
-        "hussainweb/drupal-composer-helper": "^1.0"
+        "hussainweb/drupal-composer-helper": "^1.0",
+        "tetranz/fcc_ham_data": "dev-master",
+        "tetranz/ham_station": "dev-master"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -32,6 +34,14 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tetranz/fcc-ham-data"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tetranz/ham-station"
         }
     ],
     "minimum-stability": "dev",
@@ -43,6 +53,9 @@
         "installer-paths": {
             "web/core": [
                 "type:drupal-core"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
             ]
         }
     },

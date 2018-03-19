@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "35ce2d27817995a4911cdf408191248e",
+    "content-hash": "a5c5cef285b5bf60a2ffbd7de5c02671",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4941,6 +4941,92 @@
             "time": "2017-06-02T09:43:35+00:00"
         },
         {
+            "name": "tetranz/fcc_ham_data",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tetranz/fcc-ham-data.git",
+                "reference": "236404bd68db5b95a7a73a994d1e0a63aa06d15c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tetranz/fcc-ham-data/zipball/236404bd68db5b95a7a73a994d1e0a63aa06d15c",
+                "reference": "236404bd68db5b95a7a73a994d1e0a63aa06d15c",
+                "shasum": ""
+            },
+            "require": {
+                "tetranz/fcc_ham_data": "dev-master"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ross Keatinge (KT1F)",
+                    "email": "tetranz@gmail.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Import FCC data for amateur radio licenses.",
+            "homepage": "https://github.com/tetranz/fcc-ham-data",
+            "support": {
+                "source": "https://github.com/tetranz/fcc-ham-data/tree/master",
+                "issues": "https://github.com/tetranz/fcc-ham-data/issues"
+            },
+            "time": "2018-03-19 00:36:49"
+        },
+        {
+            "name": "tetranz/ham_station",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tetranz/ham-station.git",
+                "reference": "5e4dd0ca8538abf82ae31db3ea3ae4863b856acc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tetranz/ham-station/zipball/5e4dd0ca8538abf82ae31db3ea3ae4863b856acc",
+                "reference": "5e4dd0ca8538abf82ae31db3ea3ae4863b856acc",
+                "shasum": ""
+            },
+            "require": {
+                "tetranz/fcc_ham_data": "dev-master"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ross Keatinge (KT1F)",
+                    "email": "tetranz@gmail.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Information about amateur radio stations.",
+            "homepage": "https://github.com/tetranz/ham-station",
+            "support": {
+                "source": "https://github.com/tetranz/ham-station/tree/master",
+                "issues": "https://github.com/tetranz/ham-station/issues"
+            },
+            "time": "2018-03-19 00:36:23"
+        },
+        {
             "name": "twig/twig",
             "version": "v1.35.2",
             "source": {
@@ -6769,7 +6855,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "tetranz/fcc_ham_data": 20,
+        "tetranz/ham_station": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
