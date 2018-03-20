@@ -1,0 +1,7 @@
+tetranz_test.default_controller_test1:
+  path: '/tetranz/test1'
+  defaults:
+    _controller: '\Drupal\tetranz_test\Controller\DefaultController::test1'
+    _title: 'Test 1'
+  requirements:
+    _permission: 'access content'

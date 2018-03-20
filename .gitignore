@@ -1,8 +1,8 @@
 /nogit
 /vendor
 /web/core
-/web/modules
-/web/themes
+/web/modules/contrib
+/web/themes/contrib
 settings.local.php
 /web/sites/default/files/
 .idea
