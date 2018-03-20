@@ -2,6 +2,7 @@
 /vendor
 /web/core
 /web/modules
+/web/themes
 settings.local.php
 /web/sites/default/files/
 .idea

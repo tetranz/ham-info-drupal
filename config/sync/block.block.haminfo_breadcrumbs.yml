@@ -1,0 +1,22 @@
+uuid: 2d6ef118-b750-4d5c-b86a-01d9195a7e3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - haminfo
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: haminfo_breadcrumbs
+theme: haminfo
+region: header
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
