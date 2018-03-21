@@ -6,3 +6,20 @@
  *
  * Place your custom PHP code in this file.
  */
+
+
+/**
+ * Implements hook_preprocess_HOOK() for views_view_fields__ham_neighbors.
+ */
+function haminfo_preprocess_views_view_fields__ham_neighbors(&$variables) {
+  $entity = $variables['row']->_entity;
+  $fields = $variables['fields'];
+
+  $variables['name'] = empty($entity->organization->value)
+    ? $fields['nothing']
+    : $fields['organization'];
+
+  $variables['previous_callsign'] = !empty($entity->previous_callsign->value)
+    ? $fields['previous_callsign']
+    : NULL;
+}

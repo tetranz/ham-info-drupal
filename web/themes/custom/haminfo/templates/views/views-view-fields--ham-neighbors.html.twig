@@ -32,8 +32,8 @@
  */
 #}
 {{ fields.callsign.content }}<br />
-{{ fields.nothing.content }}<br />
+{{ name.content }}<br />
 {{ fields.address__langcode.content }}
-{{ fields.field_location_proximity.content }} | {{ fields.nothing_1.content }} | {{ fields.operator_class.content }}<br /><br />
-
-
+{{ fields.field_location_proximity.content }} | {{ fields.nothing_1.content }} | {{ fields.operator_class.content }}<br />
+{% if previous_callsign %}Previously: {{ previous_callsign.content }}{% endif %}<br />
+<br />
