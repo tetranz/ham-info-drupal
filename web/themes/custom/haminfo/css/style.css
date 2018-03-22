@@ -1,3 +1,15 @@
 /**
  * Place your custom styles here.
  */
+
+.view-ham-neighbors .ham-station {
+    border: 1px solid #AAAAAA;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.view-ham-neighbors h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
