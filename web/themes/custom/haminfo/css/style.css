@@ -13,3 +13,11 @@
     margin-top: 0;
     margin-bottom: 5px;
 }
+
+.ham-neighbors .form-search {
+    margin-bottom: 30px;
+}
+
+.ham-neighbors #edit-callsign {
+    width: 150px;
+}
