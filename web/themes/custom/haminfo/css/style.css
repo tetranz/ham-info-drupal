@@ -23,6 +23,6 @@
 }
 
 .ham-neighbors #map {
-    height: 500px;
+    padding-bottom: 50%;
     margin-bottom: 20px;
 }
