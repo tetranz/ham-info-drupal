@@ -21,3 +21,8 @@
 .ham-neighbors #edit-callsign {
     width: 150px;
 }
+
+.ham-neighbors #map {
+    height: 500px;
+    margin-bottom: 20px;
+}
