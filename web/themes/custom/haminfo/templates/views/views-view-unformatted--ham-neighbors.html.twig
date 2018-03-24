@@ -17,8 +17,10 @@
  * @ingroup themeable
  */
 #}
-<div class="row">
-  {% for row in rows %}
-    <div class="col-md-3">{{ row.content }}</div>
-  {% endfor %}
-</div>
+{% set col = 0 %}
+{% for row in rows %}
+  {% if col == 0 %}<div class="row">{% endif %}
+  <div class="col-md-3">{{ row.content }}</div>
+  {% if col == 3 %}</div>{% set col = 0 %}{% else %}{% set col = col + 1 %}{% endif %}
+{% endfor %}
+{% if col > 0 %}</div>{% endif %}
