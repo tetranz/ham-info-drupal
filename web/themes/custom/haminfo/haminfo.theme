@@ -20,4 +20,5 @@ function haminfo_preprocess_views_view_fields__ham_neighbors(&$variables) {
 
   $variables['lat'] = $entity->field_location->lat;
   $variables['lng'] = $entity->field_location->lng;
+  $variables['callsign'] = $entity->callsign->value;
 }
