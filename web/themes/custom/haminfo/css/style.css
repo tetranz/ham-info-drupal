@@ -48,3 +48,8 @@
 .ham-neighbors-wrapper .infowindow {
     max-height: 200px;
 }
+
+.ham-neighbors-counts th,
+.ham-neighbors-counts td {
+    text-align: right;
+}
