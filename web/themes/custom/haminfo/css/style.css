@@ -14,15 +14,15 @@
     margin-bottom: 5px;
 }
 
-.ham-neighbors .form-search {
+.ham-neighbors-wrapper .neighbors-form {
     margin-bottom: 30px;
 }
 
-.ham-neighbors #edit-callsign {
+.ham-neighbors-wrapper .callsign-input {
     width: 150px;
 }
 
-.ham-neighbors #map {
+.ham-neighbors-wrapper .map-container {
     padding-bottom: 50%;
     margin-bottom: 20px;
 }
