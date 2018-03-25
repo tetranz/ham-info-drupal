@@ -26,3 +26,24 @@
     padding-bottom: 50%;
     margin-bottom: 20px;
 }
+
+.infowindow h3 {
+    font-size: 13px;
+    margin: 0;
+}
+
+.infowindow .ham-station__inner {
+    margin-bottom: 10px;
+}
+
+.infowindow .ham-station__inner:last-child {
+    margin-bottom: 0;
+}
+
+.infowindow .ham-station__inner p {
+    margin: 0;
+}
+
+.infowindow {
+    max-height: 200px;
+}
