@@ -1,5 +1,0 @@
-services:
-  tetranz_test.commands:
-    class: \Drupal\tetranz_test\Commands\TetranzTestCommands
-    tags:
-      - { name: drush.command }
