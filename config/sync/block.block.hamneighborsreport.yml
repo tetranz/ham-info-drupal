@@ -1,0 +1,26 @@
+uuid: 396deb69-9517-448e-bf48-c50faf0940a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - ham_station
+    - system
+  theme:
+    - haminfo
+id: hamneighborsreport
+theme: haminfo
+region: content
+weight: 0
+provider: null
+plugin: ham_neighbors_report
+settings:
+  id: ham_neighbors_report
+  label: 'Ham neighbors geocoding counts'
+  provider: ham_station
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /ham-neighbors-info
+    negate: false
+    context_mapping: {  }
