@@ -10,6 +10,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.4",
         "drupal/features": "^3.7",
+        "drupal/geolocation": "^1.11",
         "drupal/redirect": "^1.1",
         "drush/drush": "^9.2",
         "hussainweb/drupal-composer-helper": "^1.0",
