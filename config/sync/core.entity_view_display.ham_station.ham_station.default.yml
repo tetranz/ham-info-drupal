@@ -2,11 +2,8 @@ uuid: 56983000-f8c4-493e-ad16-8c65f97f81a9
 langcode: en
 status: true
 dependencies:
-  config:
-    - field.field.ham_station.ham_station.field_location
   module:
     - address
-    - geolocation
     - ham_station
     - options
     - user
@@ -47,13 +44,6 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-  field_location:
-    weight: 46
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: geolocation_latlng
-    region: content
   first_name:
     label: above
     type: string
@@ -88,6 +78,22 @@ content:
     label: above
     type: string
     weight: 3
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  latitude:
+    label: above
+    type: string
+    weight: 11
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  longitude:
+    label: above
+    type: string
+    weight: 12
     region: content
     settings:
       link_to_entity: false

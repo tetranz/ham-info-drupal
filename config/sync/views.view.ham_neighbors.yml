@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   module:
-    - geolocation
     - ham_station
 id: ham_neighbors
 label: 'Ham neighbors'
@@ -567,81 +566,6 @@ display:
           entity_type: ham_station
           entity_field: address
           plugin_id: field
-        field_location_proximity:
-          proximity_source: argument
-          proximity_lat: ''
-          proximity_lng: ''
-          proximity_units: km
-          proximity_filter: ''
-          proximity_argument: field_location_proximity
-          entity_id_argument: field_location_proximity
-          boundary_filter: ''
-          proximity_geocoder: 0
-          proximity_geocoder_plugin_settings:
-            plugin_id: google_geocoding_api
-            settings:
-              components:
-                route: ''
-                locality: ''
-                administrativeArea: ''
-                postalCode: ''
-                country: ''
-          id: field_location_proximity
-          table: ham_station__field_location
-          field: field_location_proximity
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          set_precision: true
-          precision: 1
-          decimal: .
-          separator: ','
-          format_plural: false
-          format_plural_string: !!binary MQNAY291bnQ=
-          prefix: ''
-          suffix: ' miles'
-          plugin_id: geolocation_field_proximity
         operator_class:
           id: operator_class
           table: ham_station
@@ -821,54 +745,70 @@ display:
           entity_type: ham_station
           entity_field: previous_callsign
           plugin_id: field
-      filters:
-        geocode_status:
-          id: geocode_status
+        distance:
+          id: distance
           table: ham_station
-          field: geocode_status
+          field: distance
           relationship: none
           group_type: group
           admin_label: ''
-          operator: '='
-          value:
-            min: ''
-            max: ''
-            value: '1'
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          set_precision: 1
+          precision: '1'
+          decimal: .
+          separator: ','
+          format_plural: 0
+          format_plural_string: !!binary MQNAY291bnQ=
+          prefix: ''
+          suffix: ' miles'
           entity_type: ham_station
-          entity_field: geocode_status
-          plugin_id: numeric
+          plugin_id: ham_station_distance
+      filters: {  }
       sorts:
-        field_location_proximity:
-          proximity_field: field_location_proximity
-          id: field_location_proximity
-          table: ham_station__field_location
-          field: field_location_proximity
+        distance:
+          id: distance
+          table: ham_station
+          field: distance
           relationship: none
           group_type: group
           admin_label: ''
@@ -876,20 +816,21 @@ display:
           exposed: false
           expose:
             label: ''
-          plugin_id: geolocation_sort_proximity
+          entity_type: ham_station
+          plugin_id: ham_station_distance
       header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments:
-        field_location_proximity:
-          id: field_location_proximity
-          table: ham_station__field_location
-          field: field_location_proximity
+        distance:
+          id: distance
+          table: ham_station
+          field: distance
           relationship: none
           group_type: group
           admin_label: ''
-          default_action: 'access denied'
+          default_action: 'not found'
           exception:
             value: all
             title_enable: false
@@ -914,7 +855,8 @@ display:
             type: none
             fail: 'not found'
           validate_options: {  }
-          plugin_id: geolocation_argument_proximity
+          entity_type: ham_station
+          plugin_id: ham_station_distance
       display_extenders: {  }
     cache_metadata:
       max-age: -1

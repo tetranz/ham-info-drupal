@@ -2,11 +2,8 @@ uuid: aa95a7cf-e8e5-46d5-8279-f7e3f1f5ab11
 langcode: en
 status: true
 dependencies:
-  config:
-    - field.field.ham_station.ham_station.field_location
   module:
     - address
-    - geolocation
     - ham_station
 _core:
   default_config_hash: Aasp_YrDhigZAWmHl8vKOtzwJaxa14jYFhGH48imhZQ
@@ -44,12 +41,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_location:
-    weight: 47
-    settings: {  }
-    third_party_settings: {  }
-    type: geolocation_latlng
-    region: content
   first_name:
     type: string_textfield
     weight: 1
@@ -81,6 +72,22 @@ content:
   last_name:
     type: string_textfield
     weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  latitude:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  longitude:
+    type: string_textfield
+    weight: 12
     region: content
     settings:
       size: 60
