@@ -11,7 +11,7 @@
 }
 
 .ham-neighbors-wrapper .neighbors-form {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .ham-neighbors-wrapper .callsign-input {
@@ -26,6 +26,10 @@
 .ham-neighbors-wrapper .ajax-processing {
     margin-left: 30px;
     font-size: 18px;
+}
+
+.ham-neighbors-wrapper .info-block-1 {
+    margin-bottom: 20px;
 }
 
 .ham-neighbors-wrapper .infowindow h3 {
