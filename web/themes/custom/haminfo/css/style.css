@@ -53,6 +53,10 @@
     max-height: 200px;
 }
 
+.ham-neighbors-geocode-report {
+    margin-top: 20px;
+}
+
 .ham-neighbors-counts th,
 .ham-neighbors-counts td {
     text-align: right;

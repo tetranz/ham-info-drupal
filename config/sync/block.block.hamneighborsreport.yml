@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - ham_station
+    - system
   theme:
     - haminfo
 id: hamneighborsreport
@@ -17,4 +18,9 @@ settings:
   label: 'Ham neighbors report'
   provider: ham_station
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /ham-neighbors-info
+    negate: false
+    context_mapping: {  }
