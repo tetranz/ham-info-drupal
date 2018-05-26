@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "f65117fb241d9c6af103a93288c376bd",
@@ -5088,7 +5088,7 @@
                 "source": "https://github.com/tetranz/fcc-ham-data/tree/master",
                 "issues": "https://github.com/tetranz/fcc-ham-data/issues"
             },
-            "time": "2018-03-19 00:36:49"
+            "time": "2018-03-19T00:36:49+00:00"
         },
         {
             "name": "tetranz/ham_station",
@@ -5096,12 +5096,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tetranz/ham-station.git",
-                "reference": "e47b024c9ddae4885e16c862a5e244340fe801b7"
+                "reference": "05eb2e3a0cbc26fb511614e8d246a63f6333e458"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tetranz/ham-station/zipball/e47b024c9ddae4885e16c862a5e244340fe801b7",
-                "reference": "e47b024c9ddae4885e16c862a5e244340fe801b7",
+                "url": "https://api.github.com/repos/tetranz/ham-station/zipball/05eb2e3a0cbc26fb511614e8d246a63f6333e458",
+                "reference": "05eb2e3a0cbc26fb511614e8d246a63f6333e458",
                 "shasum": ""
             },
             "require": {
@@ -5131,7 +5131,7 @@
                 "source": "https://github.com/tetranz/ham-station/tree/master",
                 "issues": "https://github.com/tetranz/ham-station/issues"
             },
-            "time": "2018-04-29 19:24:11"
+            "time": "2018-05-26T18:09:51+00:00"
         },
         {
             "name": "twig/twig",
