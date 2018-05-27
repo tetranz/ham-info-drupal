@@ -5096,12 +5096,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tetranz/ham-station.git",
-                "reference": "d94ed9905e3a14848bd83a70a4474929f7122316"
+                "reference": "1ec505adfec54fece5ab4d40dd5a92da9c9fb5e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tetranz/ham-station/zipball/d94ed9905e3a14848bd83a70a4474929f7122316",
-                "reference": "d94ed9905e3a14848bd83a70a4474929f7122316",
+                "url": "https://api.github.com/repos/tetranz/ham-station/zipball/1ec505adfec54fece5ab4d40dd5a92da9c9fb5e1",
+                "reference": "1ec505adfec54fece5ab4d40dd5a92da9c9fb5e1",
                 "shasum": ""
             },
             "require": {
@@ -5128,10 +5128,10 @@
             "description": "Information about amateur radio stations.",
             "homepage": "https://github.com/tetranz/ham-station",
             "support": {
-                "source": "https://github.com/tetranz/ham-station/tree/grid-squares",
+                "source": "https://github.com/tetranz/ham-station/tree/master",
                 "issues": "https://github.com/tetranz/ham-station/issues"
             },
-            "time": "2018-05-27T21:13:52+00:00"
+            "time": "2018-05-27T21:31:21+00:00"
         },
         {
             "name": "twig/twig",
