@@ -865,3 +865,70 @@ display:
         - 'languages:language_interface'
         - url
       tags: {  }
+  dist_from_point:
+    display_plugin: embed
+    id: dist_from_point
+    display_title: 'Distance from point'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+      tags: {  }
+  rectangle:
+    display_plugin: embed
+    id: rectangle
+    display_title: Rectangle
+    position: 2
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      arguments:
+        rectangle:
+          id: rectangle
+          table: ham_station
+          field: rectangle
+          relationship: none
+          group_type: group
+          admin_label: ''
+          default_action: default
+          exception:
+            value: all
+            title_enable: false
+            title: All
+          title_enable: false
+          title: ''
+          default_argument_type: fixed
+          default_argument_options:
+            argument: 42.791666666667|-71.75|42.833333333333|-71.666666666667|miles
+          default_argument_skip_url: false
+          summary_options:
+            base_path: ''
+            count: true
+            items_per_page: 25
+            override: false
+          summary:
+            sort_order: asc
+            number_of_records: 0
+            format: default_summary
+          specify_validation: false
+          validate:
+            type: none
+            fail: 'not found'
+          validate_options: {  }
+          entity_type: ham_station
+          plugin_id: ham_station_rectangle
+      defaults:
+        arguments: false
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+      tags: {  }
