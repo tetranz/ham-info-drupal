@@ -4,7 +4,7 @@ schemas:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://www.d8dev.local/themes/contrib/bootstrap/favicon.ico'
+  url: 'http://haminfo.local/themes/custom/haminfo/favicon.ico'
   use_default: true
 features:
   comment_user_picture: true
@@ -15,3 +15,6 @@ logo:
   path: ''
   url: ''
   use_default: true
+forms_smart_descriptions: 0
+table_responsive: '-1'
+table: ''
