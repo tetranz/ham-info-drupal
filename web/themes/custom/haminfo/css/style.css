@@ -1,63 +1,34 @@
-.view-ham-neighbors .ham-station {
-    border: 1px solid #AAAAAA;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.view-ham-neighbors h3 {
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 5px;
-}
-
-.ham-neighbors-wrapper .neighbors-form {
-    margin-bottom: 20px;
-}
-
-.ham-neighbors-wrapper .callsign-input {
-    width: 150px;
-}
-
-.ham-neighbors-wrapper .map-container {
+.ham-map-wrapper .map-container {
     padding-bottom: 60%;
     margin-bottom: 20px;
 }
 
-.ham-neighbors-wrapper .ajax-processing {
-    margin-left: 30px;
-    font-size: 18px;
+.grid-marker {
+    font-size: 20px;
+    background-color: yellow;
+    padding: 0 3px;
 }
 
-.ham-neighbors-wrapper .info-block-1 {
-    margin-bottom: 20px;
+.infowindow.multi .address {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #888888;
+    padding-top: 2px;
 }
 
-.ham-neighbors-wrapper .infowindow h3 {
-    font-size: 13px;
-    margin: 0;
+.infowindow.multi .address.first {
+    padding-top: 0;
 }
 
-.ham-neighbors-wrapper .infowindow .ham-station__inner {
-    margin-bottom: 10px;
+.infowindow.multi .address.last {
+    padding-bottom: 0;
+    border-bottom: none;
 }
 
-.ham-neighbors-wrapper .infowindow .ham-station__inner:last-child {
-    margin-bottom: 0;
+.ham-map-form .error-message {
+    font-weight: bold;
+    color: #FF0000;
 }
 
-.ham-neighbors-wrapper .infowindow .ham-station__inner p {
-    margin: 0;
-}
-
-.ham-neighbors-wrapper .infowindow {
-    max-height: 200px;
-}
-
-.ham-neighbors-geocode-report {
-    margin-top: 20px;
-}
-
-.ham-neighbors-counts th,
-.ham-neighbors-counts td {
-    text-align: right;
+.ham-map-form .query-input {
+    padding-top: 10px;
 }
