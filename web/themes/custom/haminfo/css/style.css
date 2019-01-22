@@ -29,6 +29,6 @@
     color: #FF0000;
 }
 
-.ham-map-form .query-input {
+.ham-map-form .query-other, .ham-map-form .query-address {
     padding-top: 10px;
 }
