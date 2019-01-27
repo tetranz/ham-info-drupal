@@ -2,9 +2,9 @@
 
 cd /srv/haminfo/web
 
-../vendor/bin/drush fcc_ham_data:import hd ../haminfo-data/HD.dat
-../vendor/bin/drush fcc_ham_data:import en ../haminfo-data/EN.dat
-../vendor/bin/drush fcc_ham_data:import am ../haminfo-data/AM.dat
+../vendor/bin/drush fcc_ham_data:import hd ../../haminfo-data/HD.dat
+../vendor/bin/drush fcc_ham_data:import en ../../haminfo-data/EN.dat
+../vendor/bin/drush fcc_ham_data:import am ../../haminfo-data/AM.dat
 ../vendor/bin/drush fcc_ham_data:update-hash
 
 ../vendor/bin/drush ham_station:import-fcc-update
