@@ -5509,12 +5509,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tetranz/fcc-ham-data.git",
-                "reference": "236404bd68db5b95a7a73a994d1e0a63aa06d15c"
+                "reference": "01333554b7c1bb9cabcc77f63c8ed7b3abdde014"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tetranz/fcc-ham-data/zipball/236404bd68db5b95a7a73a994d1e0a63aa06d15c",
-                "reference": "236404bd68db5b95a7a73a994d1e0a63aa06d15c",
+                "url": "https://api.github.com/repos/tetranz/fcc-ham-data/zipball/01333554b7c1bb9cabcc77f63c8ed7b3abdde014",
+                "reference": "01333554b7c1bb9cabcc77f63c8ed7b3abdde014",
                 "shasum": ""
             },
             "require": {
@@ -5544,7 +5544,7 @@
                 "source": "https://github.com/tetranz/fcc-ham-data/tree/master",
                 "issues": "https://github.com/tetranz/fcc-ham-data/issues"
             },
-            "time": "2018-03-19T00:36:49+00:00"
+            "time": "2019-01-27T04:13:27+00:00"
         },
         {
             "name": "tetranz/ham_station",
