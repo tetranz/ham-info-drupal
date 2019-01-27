@@ -1,4 +1,4 @@
-uuid: 7216a2ed-e515-4a7e-8a75-66e944161a01
+uuid: e09157d9-b051-4cf6-85f6-bfb8625e426d
 langcode: en
 status: true
 dependencies:
@@ -7,20 +7,20 @@ dependencies:
     - system
   theme:
     - haminfo
-id: hamneighborsreport
+id: hammapreport
 theme: haminfo
 region: content
 weight: 0
 provider: null
-plugin: ham_neighbors_report
+plugin: ham_map_report
 settings:
-  id: ham_neighbors_report
-  label: 'Ham neighbors report'
+  id: ham_map_report
+  label: 'Ham map report'
   provider: ham_station
-  label_display: '0'
+  label_display: visible
 visibility:
   request_path:
     id: request_path
-    pages: /ham-neighbors-info
+    pages: /ham-map-info
     negate: false
     context_mapping: {  }
