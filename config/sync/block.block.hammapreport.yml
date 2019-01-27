@@ -15,7 +15,7 @@ provider: null
 plugin: ham_map_report
 settings:
   id: ham_map_report
-  label: 'Ham map report'
+  label: 'Geocode report'
   provider: ham_station
   label_display: visible
 visibility:
