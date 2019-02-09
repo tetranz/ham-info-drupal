@@ -36,3 +36,16 @@
 .ham-map-form .query-other, .ham-map-form .query-address {
     padding-top: 10px;
 }
+
+.ham-map-form .no-bottom-margin {
+    margin-bottom: 0;
+}
+
+.ham-map-form .processing {
+    font-weight: bold;
+    padding: 2px 0 2px 20px;
+    width: 150px;
+    border-radius: 5px;
+    background: transparent url(../../../../core/misc/throbber-active.gif) no-repeat 0 center;
+    display: none;
+}
