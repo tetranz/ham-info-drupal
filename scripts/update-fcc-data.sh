@@ -13,6 +13,7 @@ cd /srv/haminfo/web
 ../vendor/bin/drush ham_station:delete-fcc-inactive
 ../vendor/bin/drush ham_station:delete-fcc-inactive-addresses
 ../vendor/bin/drush ham_station:delete-fcc-inactive-locations
+../vendor/bin/drush ham_station:set-po-box
 
 ../vendor/bin/drush fcc_ham_data:truncate hd
 ../vendor/bin/drush fcc_ham_data:truncate en
