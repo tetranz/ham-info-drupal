@@ -9,4 +9,4 @@ rm AM.dat
 
 wget http://wireless.fcc.gov/uls/data/complete/l_amat.zip
 
-unzip l_amat.zip HD.DAT EN.DAT AM.dat
+unzip l_amat.zip HD.dat EN.dat AM.dat
