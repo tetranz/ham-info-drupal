@@ -18,3 +18,5 @@ cd /srv/haminfo/web
 ../vendor/bin/drush fcc_ham_data:truncate hd
 ../vendor/bin/drush fcc_ham_data:truncate en
 ../vendor/bin/drush fcc_ham_data:truncate am
+
+../vendor/bin/drush cr
