@@ -1,5 +1,11 @@
 #!/bin/sh
 
+cd /srv/haminfo/web
+
+../vendor/bin/drush fcc_ham_data:truncate hd
+../vendor/bin/drush fcc_ham_data:truncate en
+../vendor/bin/drush fcc_ham_data:truncate am
+
 cd /srv/haminfo-data
 
 rm l_amat.zip
