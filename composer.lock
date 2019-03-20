@@ -5601,12 +5601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tetranz/ham-station.git",
-                "reference": "d956a504a541f8e4a54abf626b774ac9468e2ed7"
+                "reference": "1e824e8e9c5b4bc3f58179fb15524185fdcb8415"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tetranz/ham-station/zipball/d956a504a541f8e4a54abf626b774ac9468e2ed7",
-                "reference": "d956a504a541f8e4a54abf626b774ac9468e2ed7",
+                "url": "https://api.github.com/repos/tetranz/ham-station/zipball/1e824e8e9c5b4bc3f58179fb15524185fdcb8415",
+                "reference": "1e824e8e9c5b4bc3f58179fb15524185fdcb8415",
                 "shasum": ""
             },
             "require": {
@@ -5636,7 +5636,7 @@
                 "source": "https://github.com/tetranz/ham-station/tree/master",
                 "issues": "https://github.com/tetranz/ham-station/issues"
             },
-            "time": "2019-03-17T23:55:03+00:00"
+            "time": "2019-03-20T11:52:27+00:00"
         },
         {
             "name": "twig/twig",
