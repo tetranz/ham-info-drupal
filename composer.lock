@@ -2605,7 +2605,8 @@
                         "[web-root]/profiles/README.txt": "assets/scaffold/files/profiles.README.txt",
                         "[web-root]/themes/README.txt": "assets/scaffold/files/themes.README.txt"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "autoload": {
                 "psr-4": {
@@ -6030,12 +6031,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tetranz/ham-station.git",
-                "reference": "9f72ac4f0577429b29f06849fe946811ed2355e4"
+                "reference": "1b6bc930acf18d8d97a418c38e2a65289f96bddd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tetranz/ham-station/zipball/9f72ac4f0577429b29f06849fe946811ed2355e4",
-                "reference": "9f72ac4f0577429b29f06849fe946811ed2355e4",
+                "url": "https://api.github.com/repos/tetranz/ham-station/zipball/1b6bc930acf18d8d97a418c38e2a65289f96bddd",
+                "reference": "1b6bc930acf18d8d97a418c38e2a65289f96bddd",
                 "shasum": ""
             },
             "require": {
@@ -6065,7 +6066,7 @@
                 "source": "https://github.com/tetranz/ham-station/tree/master",
                 "issues": "https://github.com/tetranz/ham-station/issues"
             },
-            "time": "2019-03-20T11:56:08+00:00"
+            "time": "2020-05-22T11:27:25+00:00"
         },
         {
             "name": "twig/twig",
