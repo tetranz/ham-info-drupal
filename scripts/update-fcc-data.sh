@@ -11,8 +11,6 @@ if [[ "$msg" =~ Error* ]]
 then
   echo "$msg"
   exit
-else
-  echo "$msg"
 fi
 
 ../vendor/bin/drush fcc_ham_data:update-hash

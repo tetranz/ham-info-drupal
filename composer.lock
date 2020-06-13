@@ -5988,12 +5988,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tetranz/fcc-ham-data.git",
-                "reference": "1a5ae6201fc17b936578137ad7218a53aee85e0a"
+                "reference": "eca6d0eedf380193a9c57b220443cc2d953bbfe5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tetranz/fcc-ham-data/zipball/1a5ae6201fc17b936578137ad7218a53aee85e0a",
-                "reference": "1a5ae6201fc17b936578137ad7218a53aee85e0a",
+                "url": "https://api.github.com/repos/tetranz/fcc-ham-data/zipball/eca6d0eedf380193a9c57b220443cc2d953bbfe5",
+                "reference": "eca6d0eedf380193a9c57b220443cc2d953bbfe5",
                 "shasum": ""
             },
             "require": {
@@ -6023,7 +6023,7 @@
                 "source": "https://github.com/tetranz/fcc-ham-data/tree/master",
                 "issues": "https://github.com/tetranz/fcc-ham-data/issues"
             },
-            "time": "2020-06-13T12:57:29+00:00"
+            "time": "2020-06-13T16:17:41+00:00"
         },
         {
             "name": "tetranz/ham_station",
