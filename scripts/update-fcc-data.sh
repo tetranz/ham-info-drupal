@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /srv/haminfo/web
+cd ../web
 
 ../vendor/bin/drush fcc_ham_data:import hd ../../haminfo-data/HD.dat
 ../vendor/bin/drush fcc_ham_data:import en ../../haminfo-data/EN.dat
