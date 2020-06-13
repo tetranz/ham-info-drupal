@@ -2790,12 +2790,12 @@
             "version": "0.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/njh/easyrdf.git",
+                "url": "https://github.com/easyrdf/easyrdf.git",
                 "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/njh/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
+                "url": "https://api.github.com/repos/easyrdf/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
                 "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566",
                 "shasum": ""
             },
@@ -5988,12 +5988,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tetranz/fcc-ham-data.git",
-                "reference": "7281fd890a624fbc4fe325d8332cacdfd7c5e742"
+                "reference": "1a5ae6201fc17b936578137ad7218a53aee85e0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tetranz/fcc-ham-data/zipball/7281fd890a624fbc4fe325d8332cacdfd7c5e742",
-                "reference": "7281fd890a624fbc4fe325d8332cacdfd7c5e742",
+                "url": "https://api.github.com/repos/tetranz/fcc-ham-data/zipball/1a5ae6201fc17b936578137ad7218a53aee85e0a",
+                "reference": "1a5ae6201fc17b936578137ad7218a53aee85e0a",
                 "shasum": ""
             },
             "require": {
@@ -6023,7 +6023,7 @@
                 "source": "https://github.com/tetranz/fcc-ham-data/tree/master",
                 "issues": "https://github.com/tetranz/fcc-ham-data/issues"
             },
-            "time": "2020-06-06T10:23:17+00:00"
+            "time": "2020-06-13T12:57:29+00:00"
         },
         {
             "name": "tetranz/ham_station",
