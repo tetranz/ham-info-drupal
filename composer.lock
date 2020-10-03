@@ -1808,6 +1808,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core",
+            "abandoned": "drupal/core-composer-scaffold",
             "time": "2018-07-27T10:07:07+00:00"
         },
         {
@@ -6031,12 +6032,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tetranz/ham-station.git",
-                "reference": "07974211cf193d8bcceb6ebe4f8f8f5fbabdb533"
+                "reference": "5b3845c0e26670b4e880d71efc33915e7e45dd25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tetranz/ham-station/zipball/07974211cf193d8bcceb6ebe4f8f8f5fbabdb533",
-                "reference": "07974211cf193d8bcceb6ebe4f8f8f5fbabdb533",
+                "url": "https://api.github.com/repos/tetranz/ham-station/zipball/5b3845c0e26670b4e880d71efc33915e7e45dd25",
+                "reference": "5b3845c0e26670b4e880d71efc33915e7e45dd25",
                 "shasum": ""
             },
             "require": {
@@ -6066,7 +6067,7 @@
                 "source": "https://github.com/tetranz/ham-station/tree/master",
                 "issues": "https://github.com/tetranz/ham-station/issues"
             },
-            "time": "2020-05-22T11:39:09+00:00"
+            "time": "2020-10-03T17:59:52+00:00"
         },
         {
             "name": "twig/twig",
