@@ -8,3 +8,4 @@ settings.local.php
 .idea
 .vscode
 /config/sync/ham_station.settings.yml
+/private-files
