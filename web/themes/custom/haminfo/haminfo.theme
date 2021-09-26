@@ -6,3 +6,10 @@
  *
  * Place your custom PHP code in this file.
  */
+
+/**
+ * Implements hook_bootstrap_colorize_text_alter().
+ */
+function haminfo_bootstrap_colorize_text_alter(array &$texts) {
+  unset($texts['contains']['Export']);
+}
