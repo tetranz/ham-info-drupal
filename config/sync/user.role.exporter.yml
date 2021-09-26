@@ -1,0 +1,10 @@
+uuid: d459c71d-09a7-4a68-8461-34448310580f
+langcode: en
+status: true
+dependencies: {  }
+id: exporter
+label: Exporter
+weight: 3
+is_admin: null
+permissions:
+  - 'export ham station'
