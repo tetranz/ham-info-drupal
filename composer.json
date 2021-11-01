@@ -69,7 +69,8 @@
     },
     "config": {
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "platform-check": false
     },
     "autoload": {
         "psr-4": { "Tetranz\\HamFccLib\\": "vendor/tetranz/ham-fcc-lib/src" }
